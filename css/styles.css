@@ -1,3 +1,12 @@
+.container {
+    max-width;
+    padding-left;
+    padding-right; 
+    margin-left; 
+    margin-right;
+}
+
+
 body {
     font-family: 'Roboto', sans-serif;
     color: #434455;
@@ -14,6 +23,9 @@ a {
     list-style: none;
 }
 
+img {
+    display: block;
+}
 
 .logo {
     
