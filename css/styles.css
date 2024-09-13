@@ -29,7 +29,7 @@ img {
     border-bottom: 1px solid #e7e9fc;
 }
 
-.container-h {
+.default-container {
     display: flex;
     width: 1158px;
     padding-left: 15px;
@@ -41,7 +41,6 @@ img {
     display: flex;
     align-items: center;
     margin-right: 76px;
-
 }
 
 .nav-list {
@@ -69,6 +68,7 @@ img {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
+    margin-right: 76px
 
 }
 
@@ -120,8 +120,13 @@ img {
 
 
 
+
+
 .hero {
     background-color: #2e2f42;
+    padding-bottom: 188px;
+    padding-top: 188px;
+    text-align: center;
 }
 
 .hero-title {
@@ -149,15 +154,27 @@ img {
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.04em;
-    text-align: left;
+    text-align: center;
     cursor: pointer;
     display: block;
+    min-width: 169px;
+    height: 56px;
+    border: none;
+    border-radius: 4px;
 }
 
 .order-button:hover,
 .order-button:focus {
     background-color: #404BBF;
 }
+
+.container-hero {
+
+}
+
+
+
+
 
 
 
