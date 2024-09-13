@@ -29,7 +29,7 @@ img {
 
 
 
-/* header */
+                                     /* header */
 
 .page-header {
     border-bottom: 1px solid #e7e9fc;
@@ -115,7 +115,7 @@ img {
 
 
 
-
+                         /* 1 section hero*/
 
 .hero {
     background-color: #2e2f42;
@@ -165,7 +165,7 @@ img {
 
 
 
-
+                               /* section 2  feauter*/
 
 .visually-hidden {
     position: absolute;
@@ -178,8 +178,6 @@ img {
     clip-path: inset(100%);
     clip: rect(0 0 0 0);
     overflow: hidden;
-    padding-top: 120px;
-    padding-bottom: 120px;
 }
 
 .feauter-title {
@@ -199,7 +197,7 @@ img {
 }
 
 .feauter-item {
-    width: calc((100% - 72px) / 4);
+    flex-basis: calc((100% - 72px) / 4);
     margin-bottom: 8px;
 }
 
@@ -226,6 +224,7 @@ img {
 
 
 
+                                /* section 3 team */
 
 .team {
     background-color: #f4f4fd;
@@ -251,18 +250,12 @@ img {
 
 .team-item {
     background-color: #ffffff;
-    width: calc((100% - 72px) / 4);
-    border-top-left-radius: 0px;
-    border-top-right-radius: 0px;
-    border-top-right-radius: 4px;
-    border-bottom-left-radius: 4px;
+    flex-basis: calc((100% - 72px) / 4);
+    border-radius: 0px 0px 4px 4px;
 }
 
-.container-team {
-    padding-top: 32px;
-    padding-bottom: 32px;
-    text-align: center;
-    margin-bottom: 8px;
+.contaiter team-name-container {
+    padding: 32px 0;
 }
 
 
@@ -273,6 +266,8 @@ img {
     line-height: 120%;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    text-align: center;
+    margin-bottom: 8px;
 }
 
 .team-text {
@@ -281,6 +276,7 @@ img {
     line-height: 150%;
     letter-spacing: 0.02em;
     color: #434455;
+    text-align: center;
 }
 
 
@@ -288,7 +284,7 @@ img {
 
 
 
-
+                            /* section 4 portfolio */
 
 
 .portfolio {
@@ -339,7 +335,7 @@ img {
     width: calc((100% - 48px) / 3);
 }
 
-.container-p {
+.container portfolio-category-container {
     padding: 32px 16px;
     border: 1px solid #e7e9fc;
     border-top: none;
@@ -353,7 +349,7 @@ img {
 
 
 
-
+                                      /* footer */
 
 .footer {
     background-color: #2e2f42;
