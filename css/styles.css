@@ -151,6 +151,7 @@ img {
     padding-top: 188px;
     padding-bottom: 188px;
     display: block;
+    margin: auto;
 
 }
 
@@ -170,6 +171,7 @@ img {
     height: 56px;
     border: none;
     border-radius: 4px;
+    margin: auto;
 }
 
 .order-button:hover,
